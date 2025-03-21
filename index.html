@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual do Usuário - Espaço do Estudante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manual do Usuário - Espaço do Estudante</h1>
+        <p>Bem-vindo ao manual do usuário da plataforma Espaço do Estudante.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#login" class="nav-link">Tela de Login</a></li>
+            <li><a href="#menu-inicial" class="nav-link">Menu Inicial</a></li>
+            <li><a href="#customizacao-menu" class="nav-link">Customização do Menu</a></li>
+            <li><a href="#atalhos" class="nav-link">Atalhos de Acesso Rápido</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Seção 1: Tela de Login -->
+        <section id="login">
+            <h2 onclick="toggleSection('login')">Tela de Login ▼</h2>
+            <div class="content">
+                <p>Para acessar a plataforma, utilize suas credenciais:</p>
+                <ul>
+                    <li><strong>Usuário:</strong> Insira seu usuário ou CPF (sem pontos).</li>
+                    <li><strong>Senha:</strong> Utilize a mesma senha do Chromebook e Gmail Escolar.</li>
+                </ul>
+                <p>Se você esquecer sua senha, clique em <strong>"Suporte para recuperação da senha"</strong>.</p>
+            </div>
+        </section>
+
+        <!-- Seção 2: Menu Inicial -->
+        <section id="menu-inicial">
+            <h2 onclick="toggleSection('menu-inicial')">Menu Inicial ▼</h2>
+            <div class="content">
+                <p>Após o login, você terá acesso ao Menu Inicial, que inclui:</p>
+                <ul>
+                    <li>Notas e presença do aluno.</li>
+                    <li>Horário das aulas do ano letivo.</li>
+                    <li>Pesquisa da escola.</li>
+                    <li>Avaliação de satisfação.</li>
+                    <li>Carteira de transporte escolar.</li>
+                    <li>Pagamentos efetuados e parcelas em aberto.</li>
+                    <li>Suporte do site.</li>
+                    <li>Rematrícula.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção 3: Customização do Menu -->
+        <section id="customizacao-menu">
+            <h2 onclick="toggleSection('customizacao-menu')">Customização do Menu Inicial ▼</h2>
+            <div class="content">
+                <p>Você pode personalizar o Menu Inicial para acessar rapidamente as funcionalidades mais importantes:</p>
+                <ul>
+                    <li>Dados Pessoais</li>
+                    <li>Desempenho</li>
+                    <li>Documentos</li>
+                    <li>Quadro de Horário</li>
+                    <li>Financeiro</li>
+                    <li>Fale Conosco</li>
+                    <li>Avaliação de Satisfação</li>
+                    <li>Pesquisa de Entrada e Saída</li>
+                    <li>Rematrícula</li>
+                    <li>Carteira de Transporte Público</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção 4: Atalhos de Acesso Rápido -->
+        <section id="atalhos">
+            <h2 onclick="toggleSection('atalhos')">Atalhos de Acesso Rápido ▼</h2>
+            <div class="content">
+                <p>Alguns atalhos disponíveis para facilitar o uso da plataforma:</p>
+                <ul>
+                    <li>Dados Pessoais</li>
+                    <li>Desempenho</li>
+                    <li>Documentos</li>
+                    <li>Quadro de Horário</li>
+                    <li>Financeiro</li>
+                    <li>Fale Conosco</li>
+                    <li>Avaliação de Satisfação</li>
+                    <li>Rematrícula</li>
+                    <li>Carteira de Transporte Público</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Espaço do Estudante. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
