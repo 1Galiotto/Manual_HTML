@@ -1,11 +1,11 @@
 :root {
-    --cor-primaria: #1E3A8A;       /* Azul escuro */
-    --cor-secundaria: #0F1A3D;     /* Azul quase preto */
-    --cor-fundo: #E5E7EB;          /* Cinza claro para o fundo */
-    --cor-texto: #1F2937;          /* Cinza escuro para texto */
-    --cor-texto-claro: #F9FAFB;    /* Branco para texto sobre fundos escuros */
+    --cor-primaria: #0b1d4e;       /* Azul escuro */
+    --cor-secundaria: #1b2d68;     /* Azul quase preto */
+    --cor-fundo: #0F1A3D;          /* Cinza claro para o fundo */
+    --cor-texto: #1b3969;          /* Cinza escuro para texto */
+    --cor-texto-claro: #607ad3;    /* Branco para texto sobre fundos escuros */
     --cor-destaque: #3B82F6;       /* Azul brilhante para hover */
-    --cor-borda: #CBD5E1;          /* Cinza para bordas */
+    --cor-borda: #1d2a57;          /* Cinza para bordas */
     --sombra: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     --transicao: all 0.3s ease;   /* Transição suave */
 }
